@@ -117,11 +117,24 @@ REC_EXT = (".m4a", ".mp3", ".wav", ".ogg", ".aac", ".opus", ".flac", ".mp4", ".w
 REC_FILT = "highpass=f=75,afftdn=nr=10:nf=-30,acompressor=threshold=-20dB:ratio=3:attack=5:release=90"
 
 
+def rec_stem(filename):
+    """Nama dasar file rekaman. Toleran terhadap akhiran ganda: 'c01.m4a.mp4' -> 'c01'. None jika bukan file audio."""
+    base, stripped = filename, False
+    while True:
+        n, e = os.path.splitext(base)
+        if e.lower() in REC_EXT:
+            base, stripped = n, True
+        else:
+            break
+    return base.strip().lower() if stripped else None
+
+
 def find_recording(voice_dir, cid):
-    for ext in REC_EXT:
-        p = os.path.join(voice_dir, cid + ext)
-        if os.path.exists(p):
-            return p
+    if not os.path.isdir(voice_dir):
+        return None
+    for f in sorted(os.listdir(voice_dir)):
+        if rec_stem(f) == cid.lower():
+            return os.path.join(voice_dir, f)
     return None
 
 
@@ -184,9 +197,8 @@ def _reference_files():
     if not os.path.isdir(VOICE_DIR):
         return []
     names = sorted(os.listdir(VOICE_DIR))
-    first = [n for n in names if os.path.splitext(n)[0].lower() == "sampel" and os.path.splitext(n)[1].lower() in REC_EXT]
-    rest = [n for n in names if os.path.splitext(n)[1].lower() in REC_EXT and n not in first
-            and os.path.splitext(n)[0][:1] == "c" and os.path.splitext(n)[0][1:].isdigit()]
+    first = [n for n in names if rec_stem(n) == "sampel"]
+    rest = [n for n in names if n not in first and (rec_stem(n) or "")[:1] == "c" and (rec_stem(n) or "")[1:].isdigit()]
     return [os.path.join(VOICE_DIR, n) for n in first + rest]
 
 

@@ -762,8 +762,8 @@ def recorded_ids():
         return set()
     out = set()
     for f in os.listdir(VOICE_DIR):
-        n, e = os.path.splitext(f)
-        if e.lower() in tts.REC_EXT and n[:1] == "c" and n[1:].isdigit():
+        n = tts.rec_stem(f)
+        if n and n[:1] == "c" and n[1:].isdigit():
             out.add(n)
     return out
 

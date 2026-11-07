@@ -280,10 +280,21 @@ def _prepare_reference(workdir, max_sec=150, chunk_sec=12):
 def _ov_boot(workdir):
     if _OV:
         return
-    from openvoice.api import ToneColorConverter
+    import torch
+    from openvoice.api import OpenVoiceBaseClass, ToneColorConverter
     cfg, ck = _ov_checkpoint(workdir)
-    conv = ToneColorConverter(cfg, device="cpu", enable_watermark=False)
-    conv.load_ckpt(ck)
+    # ToneColorConverter(..., enable_watermark=False) dari OpenVoice error (meneruskan opsi ke kelas dasar).
+    # Solusi: bangun lewat kelas dasar lalu matikan watermark sendiri (add_watermark mengembalikan audio apa adanya).
+    conv = ToneColorConverter.__new__(ToneColorConverter)
+    OpenVoiceBaseClass.__init__(conv, cfg, device="cpu")
+    conv.watermark_model = None
+    conv.version = getattr(conv.hps, "_version_", "v1")
+    _orig_load = torch.load            # PyTorch baru: default weights_only=True menolak checkpoint ini
+    torch.load = lambda *a, **k: _orig_load(*a, **{**k, "weights_only": k.get("weights_only", False)})
+    try:
+        conv.load_ckpt(ck)             # checkpoint resmi dari repo myshell-ai (dipercaya)
+    finally:
+        torch.load = _orig_load
     refs = _prepare_reference(workdir)
     print(f"[openvoice] referensi: {len(refs)} potongan", flush=True)
     tgt = conv.extract_se(refs)
@@ -306,17 +317,37 @@ def _openvoice(text, out):
 
 def clone_test(outdir="out/clone_test"):
     """Bandingkan suara dasar vs suara hasil klon (untuk didengarkan, tidak memposting apa pun)."""
+    import platform, sys, traceback
+    print("== Diagnosa uji suara klon ==", flush=True)
+    print("Python", platform.python_version(), "| STICK_CLONE =", os.environ.get("STICK_CLONE", "(kosong)"), flush=True)
+    refs = _reference_files()
+    print("Rekaman referensi yang terbaca:", [os.path.basename(r) for r in refs] or "TIDAK ADA", flush=True)
+    if not refs:
+        print("::error::Tidak ada rekaman sampel/c01/c02 di stickman/voice/. Periksa nama file dan folder (stickman/voice).")
+        sys.exit(1)
+    try:
+        import openvoice.api  # noqa: F401
+        print("openvoice: terpasang", flush=True)
+    except Exception as e:  # noqa
+        print(f"::error::OpenVoice tidak bisa dimuat -> {type(e).__name__}: {e}")
+        print("Lihat langkah 'Pasang OpenVoice' di atas: biasanya ada pustaka yang gagal dipasang.")
+        sys.exit(1)
     os.makedirs(outdir, exist_ok=True)
     lines = ["Tanggal dua puluh lima. Saldo tinggal dua belas ribu lima ratus.",
              "Pengen boleh, asal giliran setelah dana darurat.",
              "Langkah kecil: catat tiga pengeluaran terakhir, lalu coret satu yang cuma pengen."]
-    for i, t in enumerate(lines, 1):
-        t0 = time.time()
-        b = os.path.join(outdir, f"{i}_dasar.wav")
-        c = os.path.join(outdir, f"{i}_klon.wav")
-        eng = _base_tts(t, b)
-        _openvoice(t, c)
-        print(f"[{i}] dasar={eng} klon OK ({time.time() - t0:.1f} dtk) -> {c}", flush=True)
+    try:
+        for i, t in enumerate(lines, 1):
+            t0 = time.time()
+            b = os.path.join(outdir, f"{i}_dasar.wav")
+            c = os.path.join(outdir, f"{i}_klon.wav")
+            eng = _base_tts(t, b)
+            _openvoice(t, c)
+            print(f"[{i}] dasar={eng} klon OK ({time.time() - t0:.1f} dtk) -> {c}", flush=True)
+    except Exception as e:  # noqa
+        traceback.print_exc()
+        print(f"::error::Uji klon gagal -> {type(e).__name__}: {str(e)[:300]}")
+        sys.exit(1)
 
 
 def probe(text="Halo warga, ini uji suara."):

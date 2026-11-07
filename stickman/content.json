@@ -1,0 +1,2641 @@
+{
+ "contents": [
+  {
+   "id": "c01",
+   "tema": "keuangan",
+   "yt_title": "Butuh vs Pengen: tahan belanja impulsif #Shorts",
+   "caption": "Tanggal 25. Saldo tinggal segini.\n\nLangkah kecil: Catat 3 pengeluaran terakhir. Coret satu yang cuma pengen.\n\nIkuti terus, kita belajar bareng. #keuangan #hematuang #danadarurat #wargamandiri #mulaimandiri",
+   "yt_description": "Tanggal 25. Saldo tinggal segini.\n\nLangkah kecil: Catat 3 pengeluaran terakhir. Coret satu yang cuma pengen.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #keuangan #hematuang #danadarurat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Tanggal dua puluh lima. Saldo tinggal dua belas ribu lima ratus.",
+     "head": "*Tanggal 25.* Saldo tinggal segini.",
+     "e": "sad",
+     "pose": "phone",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Saldo|Rp 12.500|red|down"
+      ],
+      [
+       "calendar",
+       "mr",
+       "25"
+      ]
+     ]
+    },
+    {
+     "say": "Padahal tadi cuma checkout satu keranjang.",
+     "head": "Padahal tadi cuma *checkout* satu keranjang.",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "bag",
+       "gl1",
+       "orange"
+      ],
+      [
+       "bag",
+       "gl2",
+       "green"
+      ],
+      [
+       "bag",
+       "gr2",
+       "pink"
+      ],
+      [
+       "bag",
+       "gr1",
+       "yellow"
+      ]
+     ]
+    },
+    {
+     "say": "Tanya dulu ke diri sendiri. Ini butuh, atau pengen?",
+     "head": "Ini *BUTUH* atau ^PENGEN?^",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "sign",
+       "ml",
+       "BUTUH|blue"
+      ],
+      [
+       "sign",
+       "mr",
+       "PENGEN|orange"
+      ],
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Butuh itu yang bikin hidup tetap jalan. Pengen itu bonus.",
+     "head": "*Butuh* itu bikin hidup jalan. ^Pengen^ itu bonus.",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "sack",
+       "gl1",
+       "BERAS"
+      ],
+      [
+       "bulb",
+       "gl2",
+       ""
+      ],
+      [
+       "cup",
+       "gr2",
+       ""
+      ],
+      [
+       "boba",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Pengen boleh, asal giliran setelah dana darurat.",
+     "head": "^Pengen^ boleh. Asal setelah *dana darurat.*",
+     "e": "happy",
+     "pose": "up_r",
+     "p": [
+      [
+       "jar",
+       "gr2",
+       "DANA|DARURAT"
+      ],
+      [
+       "coin",
+       "hand",
+       "Rp"
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecilnya: catat tiga pengeluaran terakhir, lalu coret satu yang cuma pengen.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Catat 3 pengeluaran terakhir.",
+      "l2": "Coret satu yang cuma pengen.",
+      "rows": [
+       [
+        "Beras",
+        1
+       ],
+       [
+        "Listrik",
+        1
+       ],
+       [
+        "Kopi kekinian",
+        0
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c02",
+   "tema": "keuangan",
+   "yt_title": "Dana darurat itu bantalan, bukan liburan #Shorts",
+   "caption": "Motor mogok pas akhir bulan.\n\nLangkah kecil: Sisihkan Rp 5.000 hari ini. Taruh di wadah terpisah.\n\nIkuti terus, kita belajar bareng. #keuangan #hematuang #danadarurat #wargamandiri #mulaimandiri",
+   "yt_description": "Motor mogok pas akhir bulan.\n\nLangkah kecil: Sisihkan Rp 5.000 hari ini. Taruh di wadah terpisah.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #keuangan #hematuang #danadarurat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Motor tiba-tiba mogok pas akhir bulan.",
+     "head": "Motor *mogok* pas akhir bulan.",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "excl",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Kalau tidak punya simpanan, larinya ke pinjaman.",
+     "head": "Tanpa simpanan, larinya ke *pinjaman.*",
+     "e": "sad",
+     "pose": "phone",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Tagihan|Rp 850.000|red|up"
+      ]
+     ]
+    },
+    {
+     "say": "Dana darurat itu bantalan. Bukan buat jalan-jalan.",
+     "head": "Dana darurat itu *bantalan,* bukan liburan.",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "jar",
+       "gr2",
+       "DANA|DARURAT"
+      ],
+      [
+       "piggy",
+       "gl1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Mulai kecil saja. Lima ribu sehari, lama-lama jadi.",
+     "head": "Mulai dari *Rp 5.000* sehari.",
+     "e": "happy",
+     "pose": "up_r",
+     "p": [
+      [
+       "coin",
+       "hand",
+       "Rp"
+      ],
+      [
+       "jar",
+       "gr2",
+       "TABUNG"
+      ]
+     ]
+    },
+    {
+     "say": "Targetnya pelan-pelan, sebesar kebutuhan hidup beberapa bulan.",
+     "head": "Target: kebutuhan *beberapa bulan.*",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "calendar",
+       "mr",
+       "3 BLN"
+      ],
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: sisihkan lima ribu hari ini dan taruh di wadah terpisah.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Sisihkan Rp 5.000 hari ini.",
+      "l2": "Taruh di wadah terpisah.",
+      "rows": [
+       [
+        "Hari ini",
+        1
+       ],
+       [
+        "Besok",
+        1
+       ],
+       [
+        "Lusa",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c03",
+   "tema": "keuangan",
+   "yt_title": "Uang kecil yang diam-diam bocor #Shorts",
+   "caption": "Bocornya justru di uang kecil.\n\nLangkah kecil: Catat semua pengeluaran selama 7 hari.\n\nIkuti terus, kita belajar bareng. #keuangan #hematuang #danadarurat #wargamandiri #mulaimandiri",
+   "yt_description": "Bocornya justru di uang kecil.\n\nLangkah kecil: Catat semua pengeluaran selama 7 hari.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #keuangan #hematuang #danadarurat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Uang besar jarang bikin bocor. Yang kecil-kecil itu yang diam-diam.",
+     "head": "Bocornya justru di *uang kecil.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "cup",
+       "gr1",
+       ""
+      ],
+      [
+       "boba",
+       "gr2",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Kopi dua puluh ribu tiap hari, sebulan jadi enam ratus ribu.",
+     "head": "Rp 20.000 x 30 hari = *Rp 600.000*",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "calendar",
+       "mr",
+       "30"
+      ],
+      [
+       "excl",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Bukan berarti dilarang jajan. Cuma sadar ke mana perginya.",
+     "head": "Bukan *dilarang.* Cuma sadar.",
+     "e": "happy",
+     "pose": "present",
+     "p": [
+      [
+       "bag",
+       "gl1",
+       "pink"
+      ],
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Catat seminggu saja, nanti kelihatan sendiri bocornya di mana.",
+     "head": "Catat *seminggu.* Kelihatan bocornya.",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "book",
+       "gl1",
+       ""
+      ],
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: catat semua pengeluaranmu selama tujuh hari.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Catat semua pengeluaran",
+      "l2": "selama 7 hari.",
+      "rows": [
+       [
+        "Senin",
+        1
+       ],
+       [
+        "Selasa",
+        1
+       ],
+       [
+        "Rabu",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c04",
+   "tema": "keuangan",
+   "yt_title": "Aturan 24 jam sebelum checkout #Shorts",
+   "caption": "Lihat barang bagus, langsung checkout?\n\nLangkah kecil: Simpan di wishlist dulu. Cek lagi besok.\n\nIkuti terus, kita belajar bareng. #keuangan #hematuang #danadarurat #wargamandiri #mulaimandiri",
+   "yt_description": "Lihat barang bagus, langsung checkout?\n\nLangkah kecil: Simpan di wishlist dulu. Cek lagi besok.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #keuangan #hematuang #danadarurat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Lihat barang bagus, langsung pengen checkout?",
+     "head": "Lihat barang bagus, *langsung checkout?*",
+     "e": "shock",
+     "pose": "phone",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Keranjang|Diskon 70%|green"
+      ]
+     ]
+    },
+    {
+     "say": "Coba tahan dulu dua puluh empat jam.",
+     "head": "Tahan dulu *24 jam.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "06.00"
+      ]
+     ]
+    },
+    {
+     "say": "Kalau besok masih pengen dan memang perlu, baru beli.",
+     "head": "Besok masih *perlu?* Baru beli.",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "q",
+       "top",
+       ""
+      ],
+      [
+       "bag",
+       "gr2",
+       "green"
+      ]
+     ]
+    },
+    {
+     "say": "Sering kali, besoknya keinginannya sudah hilang sendiri.",
+     "head": "Sering kali, keinginannya *hilang sendiri.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: simpan dulu di wishlist, jangan langsung bayar.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Simpan di wishlist dulu.",
+      "l2": "Cek lagi besok.",
+      "rows": [
+       [
+        "Barang A",
+        1
+       ],
+       [
+        "Barang B",
+        0
+       ],
+       [
+        "Barang C",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c05",
+   "tema": "keuangan",
+   "yt_title": "Cicilan kecil-kecil kalau dijumlah #Shorts",
+   "caption": "Cicilan kecil-kecil kelihatan ringan.\n\nLangkah kecil: Tulis semua cicilanmu. Lengkap dengan jatuh tempo.\n\nIkuti terus, kita belajar bareng. #keuangan #hematuang #danadarurat #wargamandiri #mulaimandiri",
+   "yt_description": "Cicilan kecil-kecil kelihatan ringan.\n\nLangkah kecil: Tulis semua cicilanmu. Lengkap dengan jatuh tempo.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #keuangan #hematuang #danadarurat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Cicilan kecil-kecil kelihatan ringan, ya.",
+     "head": "Cicilan kecil-kecil kelihatan *ringan.*",
+     "e": "happy",
+     "pose": "stand",
+     "p": [
+      [
+       "card",
+       "gl1",
+       "CICILAN"
+      ],
+      [
+       "card",
+       "gl2",
+       "KARTU"
+      ]
+     ]
+    },
+    {
+     "say": "Tapi kalau dijumlahkan, bisa makan separuh gaji.",
+     "head": "Dijumlah, bisa makan *separuh gaji.*",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "bill",
+       "gr1",
+       ""
+      ],
+      [
+       "bill",
+       "gr2",
+       ""
+      ],
+      [
+       "excl",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Patokan umum, total cicilan jangan melebihi sepertiga penghasilan.",
+     "head": "Patokan: cicilan maksimal *sepertiga* gaji.",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Sebelum ambil cicilan baru, hitung dulu semua yang sudah jalan.",
+     "head": "Hitung dulu *semua cicilan* yang jalan.",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "book",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: tulis semua cicilan beserta tanggal jatuh temponya.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Tulis semua cicilanmu.",
+      "l2": "Lengkap dengan jatuh tempo.",
+      "rows": [
+       [
+        "Cicilan motor",
+        1
+       ],
+       [
+        "Paylater",
+        1
+       ],
+       [
+        "Cicilan HP",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c06",
+   "tema": "keuangan",
+   "yt_title": "Bayar diri sendiri dulu, baru yang lain #Shorts",
+   "caption": "Nabung dari sisa? Biasanya nol.\n\nLangkah kecil: Atur transfer otomatis tepat setelah gajian.\n\nIkuti terus, kita belajar bareng. #keuangan #hematuang #danadarurat #wargamandiri #mulaimandiri",
+   "yt_description": "Nabung dari sisa? Biasanya nol.\n\nLangkah kecil: Atur transfer otomatis tepat setelah gajian.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #keuangan #hematuang #danadarurat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Nabung dari sisa di akhir bulan, biasanya sisanya nol.",
+     "head": "Nabung dari *sisa?* Biasanya nol.",
+     "e": "sad",
+     "pose": "slump",
+     "p": [
+      [
+       "piggy",
+       "gr2",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Balik caranya. Begitu gajian, sisihkan dulu.",
+     "head": "Balik caranya: *sisihkan dulu.*",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "calendar",
+       "mr",
+       "1"
+      ]
+     ]
+    },
+    {
+     "say": "Anggap itu tagihan untuk dirimu sendiri.",
+     "head": "Anggap itu *tagihan* buat dirimu.",
+     "e": "happy",
+     "pose": "up_r",
+     "p": [
+      [
+       "coin",
+       "hand",
+       "Rp"
+      ],
+      [
+       "piggy",
+       "gr2",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Nominalnya kecil juga tidak apa-apa. Yang penting rutin.",
+     "head": "Kecil tak apa. Yang penting *rutin.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [
+      [
+       "jar",
+       "gr2",
+       "TABUNG"
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: atur pindah dana otomatis tepat setelah gajian.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Atur transfer otomatis",
+      "l2": "tepat setelah gajian.",
+      "rows": [
+       [
+        "Gajian",
+        1
+       ],
+       [
+        "Pindah ke tabungan",
+        1
+       ],
+       [
+        "Sisanya dipakai",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c07",
+   "tema": "mindset",
+   "yt_title": "Berhenti membandingkan hidup dengan orang lain #Shorts",
+   "caption": "Scroll sebentar, semua kelihatan lebih maju.\n\nLangkah kecil: Tulis 1 hal yang lebih baik dari bulan lalu.\n\nIkuti terus, kita belajar bareng. #mindset #selfreminder #mentalsehat #wargamandiri #mulaimandiri",
+   "yt_description": "Scroll sebentar, semua kelihatan lebih maju.\n\nLangkah kecil: Tulis 1 hal yang lebih baik dari bulan lalu.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #mindset #selfreminder #mentalsehat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Scroll sebentar, semua orang kelihatan lebih maju.",
+     "head": "Scroll sebentar, semua kelihatan *lebih maju.*",
+     "e": "sad",
+     "pose": "phone",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Liburan|Teman A|ink"
+      ]
+     ]
+    },
+    {
+     "say": "Yang kita lihat cuma bagian terbaik, bukan seluruh ceritanya.",
+     "head": "Itu cuma *bagian terbaik.*",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Setiap orang punya titik mulai dan beban yang berbeda.",
+     "head": "Titik mulai tiap orang *beda.*",
+     "e": "neutral",
+     "pose": "present",
+     "p": [
+      [
+       "house",
+       "gl1",
+       ""
+      ],
+      [
+       "house",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Bandingkan dirimu dengan dirimu yang kemarin.",
+     "head": "Bandingkan dengan *dirimu kemarin.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: tulis satu hal yang lebih baik dari bulan lalu.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Tulis 1 hal yang lebih baik",
+      "l2": "dari bulan lalu.",
+      "rows": [
+       [
+        "Lebih rajin",
+        1
+       ],
+       [
+        "Lebih tenang",
+        1
+       ],
+       [
+        "Lebih hemat",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c08",
+   "tema": "mindset",
+   "yt_title": "Overthinking tengah malam, ini yang bisa dicoba #Shorts",
+   "caption": "Jam 3 pagi, otak rapat sendiri.\n\nLangkah kecil: Taruh catatan dekat bantal. Tulis, lalu tutup.\n\nIkuti terus, kita belajar bareng. #mindset #selfreminder #mentalsehat #wargamandiri #mulaimandiri",
+   "yt_description": "Jam 3 pagi, otak rapat sendiri.\n\nLangkah kecil: Taruh catatan dekat bantal. Tulis, lalu tutup.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #mindset #selfreminder #mentalsehat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Jam tiga pagi, mata terbuka, otak malah rapat sendiri.",
+     "head": "Jam 3 pagi, otak *rapat sendiri.*",
+     "e": "sleepy",
+     "pose": "stand",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "03.00"
+      ],
+      [
+       "zzz",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Masalah rasanya dua kali lebih besar kalau malam.",
+     "head": "Malam hari, masalah terasa *lebih besar.*",
+     "e": "sad",
+     "pose": "slump",
+     "p": [
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Tulis semuanya di kertas, biar tidak berputar di kepala.",
+     "head": "Tulis di kertas, biar tak *berputar.*",
+     "e": "think",
+     "pose": "up_r",
+     "p": [
+      [
+       "book",
+       "hand",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Besok pagi dibahas lagi. Malam ini tugasmu cuma istirahat.",
+     "head": "Besok dibahas lagi. Malam ini *istirahat.*",
+     "e": "happy",
+     "pose": "stand",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: taruh buku catatan di dekat bantal.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Taruh catatan dekat bantal.",
+      "l2": "Tulis, lalu tutup.",
+      "rows": [
+       [
+        "Tulis kekhawatiran",
+        1
+       ],
+       [
+        "Tutup bukunya",
+        1
+       ],
+       [
+        "Istirahat",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c09",
+   "tema": "mindset",
+   "yt_title": "Hidup bukan lomba, garis finisnya beda-beda #Shorts",
+   "caption": "Teman sudah punya rumah, kita masih ngontrak.\n\nLangkah kecil: Tentukan 1 target untuk 3 bulan ke depan.\n\nIkuti terus, kita belajar bareng. #mindset #selfreminder #mentalsehat #wargamandiri #mulaimandiri",
+   "yt_description": "Teman sudah punya rumah, kita masih ngontrak.\n\nLangkah kecil: Tentukan 1 target untuk 3 bulan ke depan.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #mindset #selfreminder #mentalsehat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Teman sudah punya rumah, kita masih ngontrak.",
+     "head": "Teman sudah punya rumah, kita *masih ngontrak.*",
+     "e": "sad",
+     "pose": "slump",
+     "p": [
+      [
+       "house",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Hidup bukan lomba lari. Garis finisnya tidak sama.",
+     "head": "Hidup bukan lomba. *Garis finisnya beda.*",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Yang penting arahnya benar dan langkahnya tidak berhenti.",
+     "head": "Yang penting *arahnya benar.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "sign",
+       "ml",
+       "ARAH|blue"
+      ]
+     ]
+    },
+    {
+     "say": "Pelan-pelan juga tetap sampai.",
+     "head": "Pelan-pelan, *tetap sampai.*",
+     "e": "happy",
+     "pose": "walk",
+     "p": [
+      [
+       "plant",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: tentukan satu target untuk tiga bulan ke depan.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Tentukan 1 target",
+      "l2": "untuk 3 bulan ke depan.",
+      "rows": [
+       [
+        "Tulis targetnya",
+        1
+       ],
+       [
+        "Pecah jadi langkah",
+        1
+       ],
+       [
+        "Mulai hari ini",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "tema": "mindset",
+   "yt_title": "Gagal itu data, bukan vonis #Shorts",
+   "caption": "Gagal lagi. Rasanya ingin menyerah.\n\nLangkah kecil: Tulis 1 pelajaran dari kegagalan terakhir.\n\nIkuti terus, kita belajar bareng. #mindset #selfreminder #mentalsehat #wargamandiri #mulaimandiri",
+   "yt_description": "Gagal lagi. Rasanya ingin menyerah.\n\nLangkah kecil: Tulis 1 pelajaran dari kegagalan terakhir.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #mindset #selfreminder #mentalsehat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Usahanya gagal lagi. Rasanya ingin menyerah.",
+     "head": "Gagal lagi. Rasanya *ingin menyerah.*",
+     "e": "sad",
+     "pose": "slump",
+     "p": []
+    },
+    {
+     "say": "Coba lihat sebagai data, bukan vonis.",
+     "head": "Anggap sebagai *data,* bukan vonis.",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "idea",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Apa yang berhasil, apa yang belum, apa yang bisa diubah?",
+     "head": "Apa yang *bisa diubah?*",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "sign",
+       "ml",
+       "BERHASIL|green"
+      ],
+      [
+       "sign",
+       "mr",
+       "DIUBAH|orange"
+      ]
+     ]
+    },
+    {
+     "say": "Satu perbaikan kecil, lalu coba lagi.",
+     "head": "Satu perbaikan kecil, *coba lagi.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": []
+    },
+    {
+     "say": "Langkah kecil: tulis satu pelajaran dari kegagalan terakhirmu.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Tulis 1 pelajaran",
+      "l2": "dari kegagalan terakhir.",
+      "rows": [
+       [
+        "Apa yang terjadi",
+        1
+       ],
+       [
+        "Apa pelajarannya",
+        1
+       ],
+       [
+        "Coba lagi",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c11",
+   "tema": "mindset",
+   "yt_title": "Belum mapan bukan berarti gagal #Shorts",
+   "caption": "Belum mapan, apa aku gagal?\n\nLangkah kecil: Tulis 3 hal yang kamu syukuri hari ini.\n\nIkuti terus, kita belajar bareng. #mindset #selfreminder #mentalsehat #wargamandiri #mulaimandiri",
+   "yt_description": "Belum mapan, apa aku gagal?\n\nLangkah kecil: Tulis 3 hal yang kamu syukuri hari ini.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #mindset #selfreminder #mentalsehat #wargamandiri",
+   "scenes": [
+    {
+     "say": "Umur sudah segini, tapi belum mapan. Apa aku gagal?",
+     "head": "Belum mapan, apa aku *gagal?*",
+     "e": "sad",
+     "pose": "slump",
+     "p": [
+      [
+       "calendar",
+       "mr",
+       "30"
+      ]
+     ]
+    },
+    {
+     "say": "Mapan itu definisinya beda-beda, tiap orang punya ukuran sendiri.",
+     "head": "Ukuran *mapan* tiap orang beda.",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Yang bisa dilakukan, perbaiki hari ini sedikit demi sedikit.",
+     "head": "Perbaiki *sedikit demi sedikit.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "plant",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Kamu masih berjalan, itu sudah lebih dari cukup untuk hari ini.",
+     "head": "Masih berjalan itu *sudah cukup.*",
+     "e": "happy",
+     "pose": "walk",
+     "p": []
+    },
+    {
+     "say": "Langkah kecil: tulis tiga hal yang sudah kamu syukuri hari ini.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Tulis 3 hal yang kamu",
+      "l2": "syukuri hari ini.",
+      "rows": [
+       [
+        "Hal pertama",
+        1
+       ],
+       [
+        "Hal kedua",
+        1
+       ],
+       [
+        "Hal ketiga",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c12",
+   "tema": "rumahtangga",
+   "yt_title": "Bagi tugas rumah, bukan tugas satu orang #Shorts",
+   "caption": "Satu orang kewalahan, tugas numpuk.\n\nLangkah kecil: Tulis daftar tugas rumah. Bagi berdua, bukan sendiri.\n\nIkuti terus, kita belajar bareng. #rumahtangga #parenting #keluarga #wargamandiri #mulaimandiri",
+   "yt_description": "Satu orang kewalahan, tugas numpuk.\n\nLangkah kecil: Tulis daftar tugas rumah. Bagi berdua, bukan sendiri.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #rumahtangga #parenting #keluarga #wargamandiri",
+   "scenes": [
+    {
+     "say": "Cucian numpuk, piring numpuk, satu orang yang kewalahan.",
+     "head": "Satu orang kewalahan, *tugas numpuk.*",
+     "e": "sad",
+     "pose": "head",
+     "p": [
+      [
+       "pot",
+       "gr1",
+       ""
+      ],
+      [
+       "bag",
+       "gl1",
+       "blue"
+      ]
+     ]
+    },
+    {
+     "say": "Rumah itu tugas bersama, bukan tugas satu orang.",
+     "head": "Rumah itu *tugas bersama.*",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "house",
+       "gr1",
+       ""
+      ],
+      [
+       "house",
+       "gl1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Bicarakan terang-terangan, jangan menunggu orang menebak.",
+     "head": "Bicarakan *terang-terangan.*",
+     "e": "neutral",
+     "pose": "point_r",
+     "p": [
+      [
+       "sign",
+       "ml",
+       "TUGAS|blue"
+      ]
+     ]
+    },
+    {
+     "say": "Bagi sesuai kemampuan dan waktu masing-masing.",
+     "head": "Bagi sesuai *waktu masing-masing.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: tulis daftar tugas rumah, lalu bagi berdua.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Tulis daftar tugas rumah.",
+      "l2": "Bagi berdua, bukan sendiri.",
+      "rows": [
+       [
+        "Masak",
+        1
+       ],
+       [
+        "Cuci piring",
+        1
+       ],
+       [
+        "Buang sampah",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c13",
+   "tema": "rumahtangga",
+   "yt_title": "Jangan lanjut debat saat sedang capek #Shorts",
+   "caption": "Capek, ditanya hal kecil, langsung emosi.\n\nLangkah kecil: Sepakati satu kalimat jeda, misalnya: lanjut nanti ya.\n\nIkuti terus, kita belajar bareng. #rumahtangga #parenting #keluarga #wargamandiri #mulaimandiri",
+   "yt_description": "Capek, ditanya hal kecil, langsung emosi.\n\nLangkah kecil: Sepakati satu kalimat jeda, misalnya: lanjut nanti ya.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #rumahtangga #parenting #keluarga #wargamandiri",
+   "scenes": [
+    {
+     "say": "Capek pulang kerja, ditanya hal kecil, langsung emosi.",
+     "head": "Capek, ditanya hal kecil, *langsung emosi.*",
+     "e": "sad",
+     "pose": "slump",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "09.00"
+      ]
+     ]
+    },
+    {
+     "say": "Kalau lagi capek, pembicaraan jarang berujung baik.",
+     "head": "Lagi capek, bicara jarang *berujung baik.*",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "excl",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Bilang saja, kita lanjut dua puluh menit lagi, ya.",
+     "head": "Bilang: *lanjut 20 menit lagi.*",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "00.20"
+      ]
+     ]
+    },
+    {
+     "say": "Setelah tenang, lebih mudah saling mendengar.",
+     "head": "Setelah tenang, *saling mendengar.*",
+     "e": "happy",
+     "pose": "stand",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: sepakati satu kalimat jeda berdua.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Sepakati satu kalimat jeda,",
+      "l2": "misalnya: lanjut nanti ya.",
+      "rows": [
+       [
+        "Sepakati kalimatnya",
+        1
+       ],
+       [
+        "Pakai saat panas",
+        1
+       ],
+       [
+        "Lanjut saat tenang",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c14",
+   "tema": "rumahtangga",
+   "yt_title": "Anak tantrum di tempat umum #Shorts",
+   "caption": "Anak menangis di toko, semua menoleh.\n\nLangkah kecil: Siapkan 1 kalimat tenang, misalnya: aku di sini.\n\nIkuti terus, kita belajar bareng. #rumahtangga #parenting #keluarga #wargamandiri #mulaimandiri",
+   "yt_description": "Anak menangis di toko, semua menoleh.\n\nLangkah kecil: Siapkan 1 kalimat tenang, misalnya: aku di sini.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #rumahtangga #parenting #keluarga #wargamandiri",
+   "scenes": [
+    {
+     "say": "Anak menangis keras di tengah toko. Semua orang menoleh.",
+     "head": "Anak menangis di toko, *semua menoleh.*",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "bag",
+       "gr1",
+       "pink"
+      ],
+      [
+       "excl",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Tarik napas dulu. Tenangkan dirimu sebelum menenangkan anak.",
+     "head": "Tarik napas, *tenangkan diri dulu.*",
+     "e": "smirk",
+     "pose": "present",
+     "p": []
+    },
+    {
+     "say": "Turunkan badan sampai sejajar dengan matanya.",
+     "head": "Turun sejajar *mata anak.*",
+     "e": "happy",
+     "pose": "stand",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Akui perasaannya dulu. Lalu pelan-pelan beri pilihan.",
+     "head": "Akui perasaannya, lalu *beri pilihan.*",
+     "e": "happy",
+     "pose": "up_r",
+     "p": [
+      [
+       "heart",
+       "hand",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: siapkan satu kalimat tenang yang akan kamu ucapkan.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Siapkan 1 kalimat tenang,",
+      "l2": "misalnya: aku di sini.",
+      "rows": [
+       [
+        "Tarik napas",
+        1
+       ],
+       [
+        "Sejajar matanya",
+        1
+       ],
+       [
+        "Beri pilihan",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c15",
+   "tema": "rumahtangga",
+   "yt_title": "Lima belas menit tanpa HP #Shorts",
+   "caption": "Serumah, tapi sibuk layar masing-masing.\n\nLangkah kecil: Pilih 1 jam tetap untuk waktu tanpa HP.\n\nIkuti terus, kita belajar bareng. #rumahtangga #parenting #keluarga #wargamandiri #mulaimandiri",
+   "yt_description": "Serumah, tapi sibuk layar masing-masing.\n\nLangkah kecil: Pilih 1 jam tetap untuk waktu tanpa HP.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #rumahtangga #parenting #keluarga #wargamandiri",
+   "scenes": [
+    {
+     "say": "Di rumah yang sama, tapi sibuk dengan layar masing-masing.",
+     "head": "Serumah, tapi sibuk *layar masing-masing.*",
+     "e": "sad",
+     "pose": "phone",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Notifikasi|99+|red"
+      ]
+     ]
+    },
+    {
+     "say": "Coba sepakat lima belas menit tanpa HP setiap hari.",
+     "head": "*15 menit* tanpa HP tiap hari.",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "00.15"
+      ]
+     ]
+    },
+    {
+     "say": "Ngobrol, main, atau cuma duduk bersama.",
+     "head": "Ngobrol, main, atau *duduk bersama.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ],
+      [
+       "book",
+       "gl1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Waktu singkat, tapi terasa lebih hadir.",
+     "head": "Singkat, tapi *lebih hadir.*",
+     "e": "happy",
+     "pose": "stand",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: pilih satu jam tetap untuk waktu tanpa HP.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Pilih 1 jam tetap",
+      "l2": "untuk waktu tanpa HP.",
+      "rows": [
+       [
+        "Pilih jamnya",
+        1
+       ],
+       [
+        "Taruh HP",
+        1
+       ],
+       [
+        "Ngobrol santai",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c16",
+   "tema": "rumahtangga",
+   "yt_title": "Terima kasih kecil yang jarang diucapkan #Shorts",
+   "caption": "Banyak hal dilakukan, jarang diucapkan.\n\nLangkah kecil: Ucapkan 1 terima kasih yang tulus hari ini.\n\nIkuti terus, kita belajar bareng. #rumahtangga #parenting #keluarga #wargamandiri #mulaimandiri",
+   "yt_description": "Banyak hal dilakukan, jarang diucapkan.\n\nLangkah kecil: Ucapkan 1 terima kasih yang tulus hari ini.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #rumahtangga #parenting #keluarga #wargamandiri",
+   "scenes": [
+    {
+     "say": "Pasangan sudah melakukan banyak hal, tapi jarang kita ucapkan.",
+     "head": "Banyak hal dilakukan, *jarang diucapkan.*",
+     "e": "think",
+     "pose": "think",
+     "p": []
+    },
+    {
+     "say": "Terima kasih sudah masak. Terima kasih sudah antar anak.",
+     "head": "Terima kasih sudah *masak,* sudah *antar.*",
+     "e": "happy",
+     "pose": "present",
+     "p": [
+      [
+       "pot",
+       "gr1",
+       ""
+      ],
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Kalimat sependek itu bisa bikin hari seseorang lebih ringan.",
+     "head": "Kalimat pendek, hari *lebih ringan.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: ucapkan satu terima kasih yang tulus hari ini.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Ucapkan 1 terima kasih",
+      "l2": "yang tulus hari ini.",
+      "rows": [
+       [
+        "Pilih orangnya",
+        1
+       ],
+       [
+        "Sebut alasannya",
+        1
+       ],
+       [
+        "Ucapkan",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c17",
+   "tema": "lifestyle",
+   "yt_title": "Rapikan kasur, kemenangan pertama hari ini #Shorts",
+   "caption": "Kasur berantakan, hari sudah malas.\n\nLangkah kecil: Rapikan kasur dulu, baru pegang HP.\n\nIkuti terus, kita belajar bareng. #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri #mulaimandiri",
+   "yt_description": "Kasur berantakan, hari sudah malas.\n\nLangkah kecil: Rapikan kasur dulu, baru pegang HP.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri",
+   "scenes": [
+    {
+     "say": "Pagi hari, kasur berantakan, hari belum mulai tapi sudah malas.",
+     "head": "Kasur berantakan, hari *sudah malas.*",
+     "e": "sleepy",
+     "pose": "slump",
+     "p": [
+      [
+       "zzz",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Rapikan kasur, lima menit saja. Itu kemenangan pertamamu.",
+     "head": "Rapikan kasur, *kemenangan pertama.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "05.00"
+      ]
+     ]
+    },
+    {
+     "say": "Kamar yang rapi bikin kepala ikut lebih tenang.",
+     "head": "Kamar rapi, *kepala lebih tenang.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": []
+    },
+    {
+     "say": "Langkah kecil: besok pagi rapikan kasur sebelum pegang HP.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Rapikan kasur dulu,",
+      "l2": "baru pegang HP.",
+      "rows": [
+       [
+        "Bangun",
+        1
+       ],
+       [
+        "Rapikan kasur",
+        1
+       ],
+       [
+        "Baru buka HP",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c18",
+   "tema": "lifestyle",
+   "yt_title": "Belanja pakai daftar biar tidak boros #Shorts",
+   "caption": "Niat beli sayur, pulang bawa camilan.\n\nLangkah kecil: Tulis daftar belanja sebelum berangkat.\n\nIkuti terus, kita belajar bareng. #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri #mulaimandiri",
+   "yt_description": "Niat beli sayur, pulang bawa camilan.\n\nLangkah kecil: Tulis daftar belanja sebelum berangkat.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri",
+   "scenes": [
+    {
+     "say": "Niat beli sayur, pulang bawa camilan lima macam.",
+     "head": "Niat beli sayur, pulang *bawa camilan.*",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "bag",
+       "gl1",
+       "orange"
+      ],
+      [
+       "bag",
+       "gl2",
+       "pink"
+      ],
+      [
+       "bag",
+       "gr1",
+       "yellow"
+      ]
+     ]
+    },
+    {
+     "say": "Tanpa daftar, tangan ikut kata hati.",
+     "head": "Tanpa daftar, tangan *ikut hati.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "book",
+       "gr2",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Tulis dulu, cek isi kulkas, baru berangkat.",
+     "head": "Tulis dulu, *cek kulkas.*",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "book",
+       "gl1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Belanja jadi lebih cepat, uang juga lebih terkontrol.",
+     "head": "Lebih cepat, *lebih terkontrol.*",
+     "e": "happy",
+     "pose": "up_r",
+     "p": [
+      [
+       "coin",
+       "hand",
+       "Rp"
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: tulis daftar belanja sebelum berangkat.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Tulis daftar belanja",
+      "l2": "sebelum berangkat.",
+      "rows": [
+       [
+        "Cek kulkas",
+        1
+       ],
+       [
+        "Tulis daftar",
+        1
+       ],
+       [
+        "Beli sesuai daftar",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c19",
+   "tema": "lifestyle",
+   "yt_title": "Taruh botol minum di tempat yang terlihat #Shorts",
+   "caption": "Seharian kerja, belum minum.\n\nLangkah kecil: Isi botol minum sekarang, taruh di mejamu.\n\nIkuti terus, kita belajar bareng. #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri #mulaimandiri",
+   "yt_description": "Seharian kerja, belum minum.\n\nLangkah kecil: Isi botol minum sekarang, taruh di mejamu.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri",
+   "scenes": [
+    {
+     "say": "Seharian kerja, baru sadar belum minum sama sekali.",
+     "head": "Seharian kerja, *belum minum.*",
+     "e": "sleepy",
+     "pose": "slump",
+     "p": [
+      [
+       "laptop",
+       "gr1",
+       "KERJA"
+      ]
+     ]
+    },
+    {
+     "say": "Taruh botol minum di tempat yang selalu terlihat.",
+     "head": "Taruh botol di *tempat terlihat.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "cup",
+       "gr2",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Yang kelihatan, biasanya lebih sering kita lakukan.",
+     "head": "Yang kelihatan, *lebih sering dilakukan.*",
+     "e": "happy",
+     "pose": "up_r",
+     "p": [
+      [
+       "cup",
+       "hand",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: isi botol minum sekarang, taruh di mejamu.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Isi botol minum sekarang,",
+      "l2": "taruh di mejamu.",
+      "rows": [
+       [
+        "Isi botol",
+        1
+       ],
+       [
+        "Taruh di meja",
+        1
+       ],
+       [
+        "Minum",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c20",
+   "tema": "lifestyle",
+   "yt_title": "Kurangi scroll sebelum tidur #Shorts",
+   "caption": "Cuma sebentar, tahu-tahu jam 1.\n\nLangkah kecil: Taruh HP di seberang kamar malam ini.\n\nIkuti terus, kita belajar bareng. #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri #mulaimandiri",
+   "yt_description": "Cuma sebentar, tahu-tahu jam 1.\n\nLangkah kecil: Taruh HP di seberang kamar malam ini.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri",
+   "scenes": [
+    {
+     "say": "Cuma mau lihat sebentar, tahu-tahu sudah jam satu.",
+     "head": "Cuma sebentar, tahu-tahu *jam 1.*",
+     "e": "sleepy",
+     "pose": "phone",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Scroll|Lagi...|ink"
+      ],
+      [
+       "clock",
+       "mr",
+       "01.00"
+      ]
+     ]
+    },
+    {
+     "say": "Besoknya bangun lemas, hari terasa panjang.",
+     "head": "Besoknya bangun *lemas.*",
+     "e": "sad",
+     "pose": "slump",
+     "p": [
+      [
+       "zzz",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Taruh HP agak jauh dari kasur saat mau tidur.",
+     "head": "Taruh HP *jauh dari kasur.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "22.00"
+      ]
+     ]
+    },
+    {
+     "say": "Tidur jadi lebih tenang, paginya lebih ringan.",
+     "head": "Tidur lebih *tenang.*",
+     "e": "happy",
+     "pose": "stand",
+     "p": [
+      [
+       "zzz",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: malam ini taruh HP di seberang kamar.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Taruh HP di seberang",
+      "l2": "kamar malam ini.",
+      "rows": [
+       [
+        "Isi daya di luar",
+        1
+       ],
+       [
+        "Matikan notifikasi",
+        1
+       ],
+       [
+        "Tidur",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c21",
+   "tema": "lifestyle",
+   "yt_title": "Masak sekali, makan dua kali #Shorts",
+   "caption": "Pulang capek, pesan makanan lagi.\n\nLangkah kecil: Masak 1 menu untuk 2 kali makan.\n\nIkuti terus, kita belajar bareng. #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri #mulaimandiri",
+   "yt_description": "Pulang capek, pesan makanan lagi.\n\nLangkah kecil: Masak 1 menu untuk 2 kali makan.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #kebiasaanbaik #hidupsederhana #rutinitas #wargamandiri",
+   "scenes": [
+    {
+     "say": "Pulang kerja capek, akhirnya pesan makanan lagi.",
+     "head": "Pulang capek, *pesan makanan lagi.*",
+     "e": "sad",
+     "pose": "phone",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Pesan|Rp 45.000|red"
+      ]
+     ]
+    },
+    {
+     "say": "Coba masak porsi lebih, simpan untuk besok.",
+     "head": "Masak *porsi lebih,* simpan besok.",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "pot",
+       "gr1",
+       ""
+      ],
+      [
+       "pot",
+       "gl1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Hemat uang, hemat waktu, dan lebih tahu isi makananmu.",
+     "head": "Hemat *uang* dan *waktu.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: akhir pekan ini masak satu menu untuk dua kali makan.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Masak 1 menu",
+      "l2": "untuk 2 kali makan.",
+      "rows": [
+       [
+        "Pilih menu",
+        1
+       ],
+       [
+        "Masak lebih",
+        1
+       ],
+       [
+        "Simpan wadah tertutup",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c22",
+   "tema": "tips",
+   "yt_title": "Kran bocor? Tutup kran utama dulu #Shorts",
+   "caption": "Kran bocor, tagihan ikut naik.\n\nLangkah kecil: Cari tahu letak kran utama rumahmu.\n\nIkuti terus, kita belajar bareng. #tipsrumah #lifehack #tipspraktis #wargamandiri #mulaimandiri",
+   "yt_description": "Kran bocor, tagihan ikut naik.\n\nLangkah kecil: Cari tahu letak kran utama rumahmu.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #tipsrumah #lifehack #tipspraktis #wargamandiri",
+   "scenes": [
+    {
+     "say": "Kran bocor, air menetes terus, tagihan ikut naik.",
+     "head": "Kran bocor, tagihan *ikut naik.*",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "bill",
+       "gr1",
+       ""
+      ],
+      [
+       "excl",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Sebelum panik, cari dulu kran utama di rumahmu.",
+     "head": "Cari dulu *kran utama.*",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Tutup kran utama, air berhenti, kamu punya waktu untuk tenang.",
+     "head": "Tutup kran utama, *air berhenti.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "sign",
+       "mr",
+       "TUTUP|blue"
+      ]
+     ]
+    },
+    {
+     "say": "Lalu panggil tukang, atau perbaiki sendiri kalau kamu bisa.",
+     "head": "Lalu *perbaiki* atau panggil tukang.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": []
+    },
+    {
+     "say": "Langkah kecil: cari tahu letak kran utama rumahmu hari ini.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Cari tahu letak",
+      "l2": "kran utama rumahmu.",
+      "rows": [
+       [
+        "Cari kran utama",
+        1
+       ],
+       [
+        "Beri tanda",
+        1
+       ],
+       [
+        "Beritahu keluarga",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c23",
+   "tema": "tips",
+   "yt_title": "Pilih 3 prioritas, bukan 20 tugas #Shorts",
+   "caption": "Daftar tugas 20, selesai nol.\n\nLangkah kecil: Tulis 3 prioritas sebelum buka HP.\n\nIkuti terus, kita belajar bareng. #tipsrumah #lifehack #tipspraktis #wargamandiri #mulaimandiri",
+   "yt_description": "Daftar tugas 20, selesai nol.\n\nLangkah kecil: Tulis 3 prioritas sebelum buka HP.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #tipsrumah #lifehack #tipspraktis #wargamandiri",
+   "scenes": [
+    {
+     "say": "Daftar tugasnya dua puluh, selesainya tidak ada.",
+     "head": "Daftar tugas 20, selesai *nol.*",
+     "e": "sad",
+     "pose": "head",
+     "p": [
+      [
+       "book",
+       "gl1",
+       ""
+      ],
+      [
+       "laptop",
+       "gr1",
+       "TUGAS"
+      ]
+     ]
+    },
+    {
+     "say": "Pilih tiga saja yang paling penting hari ini.",
+     "head": "Pilih *3 saja* yang penting.",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "calendar",
+       "mr",
+       "3"
+      ]
+     ]
+    },
+    {
+     "say": "Kerjakan yang paling penting duluan, saat tenaga masih penuh.",
+     "head": "Yang penting, *kerjakan duluan.*",
+     "e": "happy",
+     "pose": "up_r",
+     "p": [
+      [
+       "book",
+       "hand",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: tulis tiga prioritas sebelum membuka HP.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Tulis 3 prioritas",
+      "l2": "sebelum buka HP.",
+      "rows": [
+       [
+        "Prioritas 1",
+        1
+       ],
+       [
+        "Prioritas 2",
+        1
+       ],
+       [
+        "Prioritas 3",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c24",
+   "tema": "tips",
+   "yt_title": "Hemat listrik dari hal kecil #Shorts",
+   "caption": "Tagihan listrik naik, padahal biasa saja.\n\nLangkah kecil: Cabut charger yang tidak terpakai.\n\nIkuti terus, kita belajar bareng. #tipsrumah #lifehack #tipspraktis #wargamandiri #mulaimandiri",
+   "yt_description": "Tagihan listrik naik, padahal biasa saja.\n\nLangkah kecil: Cabut charger yang tidak terpakai.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #tipsrumah #lifehack #tipspraktis #wargamandiri",
+   "scenes": [
+    {
+     "say": "Tagihan listrik naik, padahal rasanya biasa saja.",
+     "head": "Tagihan listrik naik, *padahal biasa saja.*",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "bill",
+       "gr1",
+       "Rp"
+      ],
+      [
+       "bulb",
+       "gl1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Charger dan colokan yang menyala terus ikut menyedot daya.",
+     "head": "Colokan menyala terus *ikut menyedot.*",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "bulb",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Cabut yang tidak dipakai, matikan lampu ruangan kosong.",
+     "head": "Cabut yang tak dipakai, *matikan lampu.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "bulb",
+       "gl1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Hal kecil, tapi dilakukan tiap hari hasilnya terasa.",
+     "head": "Hal kecil, *tiap hari terasa.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": []
+    },
+    {
+     "say": "Langkah kecil: keliling rumah dan cabut satu charger yang tidak terpakai.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Cabut charger yang",
+      "l2": "tidak terpakai.",
+      "rows": [
+       [
+        "Cek kamar",
+        1
+       ],
+       [
+        "Cek ruang tamu",
+        1
+       ],
+       [
+        "Matikan lampu kosong",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c25",
+   "tema": "tips",
+   "yt_title": "Simpan nasi sisa dengan benar #Shorts",
+   "caption": "Nasi sisa terbuka semalaman.\n\nLangkah kecil: Sediakan wadah tertutup untuk nasi sisa.\n\nIkuti terus, kita belajar bareng. #tipsrumah #lifehack #tipspraktis #wargamandiri #mulaimandiri",
+   "yt_description": "Nasi sisa terbuka semalaman.\n\nLangkah kecil: Sediakan wadah tertutup untuk nasi sisa.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #tipsrumah #lifehack #tipspraktis #wargamandiri",
+   "scenes": [
+    {
+     "say": "Nasi sisa dibiarkan terbuka semalaman di meja.",
+     "head": "Nasi sisa *terbuka* semalaman.",
+     "e": "shock",
+     "pose": "head",
+     "p": [
+      [
+       "pot",
+       "gr1",
+       ""
+      ],
+      [
+       "excl",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Makanan yang dibiarkan lama di suhu ruang gampang basi.",
+     "head": "Di suhu ruang, makanan *gampang basi.*",
+     "e": "sad",
+     "pose": "slump",
+     "p": []
+    },
+    {
+     "say": "Simpan di wadah tertutup, dan masukkan kulkas secepatnya.",
+     "head": "Wadah tertutup, *masuk kulkas.*",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "pot",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: sediakan wadah tertutup khusus untuk nasi sisa.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Sediakan wadah tertutup",
+      "l2": "untuk nasi sisa.",
+      "rows": [
+       [
+        "Dinginkan sebentar",
+        1
+       ],
+       [
+        "Tutup rapat",
+        1
+       ],
+       [
+        "Masuk kulkas",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c26",
+   "tema": "tips",
+   "yt_title": "Pasang pengingat tagihan, bebas denda #Shorts",
+   "caption": "Lupa bayar, kena denda.\n\nLangkah kecil: Pasang pengingat untuk 1 tagihan hari ini.\n\nIkuti terus, kita belajar bareng. #tipsrumah #lifehack #tipspraktis #wargamandiri #mulaimandiri",
+   "yt_description": "Lupa bayar, kena denda.\n\nLangkah kecil: Pasang pengingat untuk 1 tagihan hari ini.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #tipsrumah #lifehack #tipspraktis #wargamandiri",
+   "scenes": [
+    {
+     "say": "Lupa bayar tagihan, kena denda, kesal sendiri.",
+     "head": "Lupa bayar, kena *denda.*",
+     "e": "sad",
+     "pose": "slump",
+     "p": [
+      [
+       "bill",
+       "gr1",
+       "Rp"
+      ],
+      [
+       "calendar",
+       "mr",
+       "17"
+      ]
+     ]
+    },
+    {
+     "say": "Pasang pengingat dua hari sebelum jatuh tempo.",
+     "head": "Pasang pengingat *H-2.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Pengingat|Listrik H-2|ink"
+      ]
+     ]
+    },
+    {
+     "say": "Sekali pasang, tenangnya sepanjang tahun.",
+     "head": "Sekali pasang, *tenang sepanjang tahun.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: hari ini pasang pengingat untuk satu tagihan.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Pasang pengingat",
+      "l2": "untuk 1 tagihan hari ini.",
+      "rows": [
+       [
+        "Listrik",
+        1
+       ],
+       [
+        "Air",
+        1
+       ],
+       [
+        "Internet",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c27",
+   "tema": "humor",
+   "yt_title": "Kukira umur 30 sudah mapan #Shorts",
+   "caption": "Kukira umur 30 sudah punya segalanya.\n\nLangkah kecil: Sebutkan 1 hal yang sudah kamu kuasai.\n\nIkuti terus, kita belajar bareng. #relatable #keresahan #kehidupansehari #wargamandiri #mulaimandiri",
+   "yt_description": "Kukira umur 30 sudah punya segalanya.\n\nLangkah kecil: Sebutkan 1 hal yang sudah kamu kuasai.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #relatable #keresahan #kehidupansehari #wargamandiri",
+   "scenes": [
+    {
+     "say": "Waktu kecil kukira umur tiga puluh itu sudah punya segalanya.",
+     "head": "Kukira umur 30 *sudah punya segalanya.*",
+     "e": "think",
+     "pose": "stand",
+     "p": [
+      [
+       "house",
+       "gr1",
+       ""
+      ],
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Ternyata umur tiga puluh masih belajar bayar tagihan tepat waktu.",
+     "head": "Ternyata, masih belajar *bayar tagihan.*",
+     "e": "sad",
+     "pose": "slump",
+     "p": [
+      [
+       "bill",
+       "gl1",
+       ""
+      ],
+      [
+       "bill",
+       "gr1",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Tidak apa-apa. Banyak orang jalan di jalur yang sama.",
+     "head": "Tak apa. *Banyak yang sama.*",
+     "e": "smirk",
+     "pose": "present",
+     "p": [
+      [
+       "heart",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Kita bukan ketinggalan. Kita masih belajar bareng.",
+     "head": "Bukan ketinggalan. *Belajar bareng.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": []
+    },
+    {
+     "say": "Langkah kecil: sebutkan satu hal yang sudah kamu kuasai.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Sebutkan 1 hal",
+      "l2": "yang sudah kamu kuasai.",
+      "rows": [
+       [
+        "Bisa masak",
+        1
+       ],
+       [
+        "Bisa hemat",
+        1
+       ],
+       [
+        "Terus belajar",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c28",
+   "tema": "humor",
+   "yt_title": "Baterai sosial tinggal 1 persen #Shorts",
+   "caption": "Baterai tinggal 1%, masih ada acara.\n\nLangkah kecil: Jadwalkan 1 jam untuk dirimu sendiri.\n\nIkuti terus, kita belajar bareng. #relatable #keresahan #kehidupansehari #wargamandiri #mulaimandiri",
+   "yt_description": "Baterai tinggal 1%, masih ada acara.\n\nLangkah kecil: Jadwalkan 1 jam untuk dirimu sendiri.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #relatable #keresahan #kehidupansehari #wargamandiri",
+   "scenes": [
+    {
+     "say": "Baterai sosial tinggal satu persen, tapi masih ada acara.",
+     "head": "Baterai *tinggal 1%,* masih ada acara.",
+     "e": "sleepy",
+     "pose": "slump",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Baterai|1%|red"
+      ]
+     ]
+    },
+    {
+     "say": "Boleh kok bilang tidak, tanpa perlu alasan panjang.",
+     "head": "Boleh bilang *tidak.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "sign",
+       "mr",
+       "TIDAK|orange"
+      ]
+     ]
+    },
+    {
+     "say": "Istirahat itu bagian dari kerja, bukan hadiah.",
+     "head": "Istirahat itu *bagian dari kerja.*",
+     "e": "happy",
+     "pose": "stand",
+     "p": [
+      [
+       "zzz",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: jadwalkan satu jam sendirian minggu ini.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Jadwalkan 1 jam",
+      "l2": "untuk dirimu sendiri.",
+      "rows": [
+       [
+        "Pilih hari",
+        1
+       ],
+       [
+        "Matikan notifikasi",
+        1
+       ],
+       [
+        "Istirahat",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c29",
+   "tema": "humor",
+   "yt_title": "Teman liburan, kita lihat saldo #Shorts",
+   "caption": "Teman liburan, kita lihat saldo.\n\nLangkah kecil: Buat 1 tabungan khusus untuk 1 tujuan.\n\nIkuti terus, kita belajar bareng. #relatable #keresahan #kehidupansehari #wargamandiri #mulaimandiri",
+   "yt_description": "Teman liburan, kita lihat saldo.\n\nLangkah kecil: Buat 1 tabungan khusus untuk 1 tujuan.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #relatable #keresahan #kehidupansehari #wargamandiri",
+   "scenes": [
+    {
+     "say": "Lihat teman liburan terus, kita lihat saldo rekening.",
+     "head": "Teman liburan, kita *lihat saldo.*",
+     "e": "sad",
+     "pose": "phone",
+     "p": [
+      [
+       "phone",
+       "hand",
+       "Liburan|Bali|green"
+      ],
+      [
+       "calendar",
+       "mr",
+       "25"
+      ]
+     ]
+    },
+    {
+     "say": "Liburan mereka bukan tagihanmu.",
+     "head": "Liburan mereka *bukan tagihanmu.*",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": []
+    },
+    {
+     "say": "Punya rencana sendiri, sabar menabung, nanti giliranmu.",
+     "head": "Punya rencana sendiri, *nanti giliranmu.*",
+     "e": "happy",
+     "pose": "up_r",
+     "p": [
+      [
+       "piggy",
+       "gr2",
+       ""
+      ],
+      [
+       "coin",
+       "hand",
+       "Rp"
+      ]
+     ]
+    },
+    {
+     "say": "Langkah kecil: buat satu tabungan khusus untuk satu tujuan.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Buat 1 tabungan",
+      "l2": "khusus untuk 1 tujuan.",
+      "rows": [
+       [
+        "Tentukan tujuan",
+        1
+       ],
+       [
+        "Tentukan nominal",
+        1
+       ],
+       [
+        "Mulai menabung",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "c30",
+   "tema": "humor",
+   "yt_title": "Janji bangun pagi vs alarm kelima #Shorts",
+   "caption": "Janji bangun pagi, alarm ke-5.\n\nLangkah kecil: Bangun 15 menit lebih awal besok.\n\nIkuti terus, kita belajar bareng. #relatable #keresahan #kehidupansehari #wargamandiri #mulaimandiri",
+   "yt_description": "Janji bangun pagi, alarm ke-5.\n\nLangkah kecil: Bangun 15 menit lebih awal besok.\n\nWarga Mandiri: belajar hidup mandiri, pelan-pelan, bareng-bareng.\nIkuti juga @mulaimandiri_ di TikTok.\n\n#Shorts #relatable #keresahan #kehidupansehari #wargamandiri",
+   "scenes": [
+    {
+     "say": "Janjinya bangun pagi, alarm pertama sampai kelima diabaikan.",
+     "head": "Janji bangun pagi, *alarm ke-5.*",
+     "e": "sleepy",
+     "pose": "slump",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "05.30"
+      ],
+      [
+       "zzz",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Bukan malas, mungkin tidurmu yang kurang.",
+     "head": "Bukan malas, *mungkin kurang tidur.*",
+     "e": "think",
+     "pose": "think",
+     "p": [
+      [
+       "q",
+       "top",
+       ""
+      ]
+     ]
+    },
+    {
+     "say": "Mulai dari bangun lima belas menit lebih awal saja.",
+     "head": "Mulai *15 menit* lebih awal.",
+     "e": "smirk",
+     "pose": "point_r",
+     "p": [
+      [
+       "clock",
+       "mr",
+       "05.15"
+      ]
+     ]
+    },
+    {
+     "say": "Pelan-pelan, kebiasaan baru lama-lama terbentuk.",
+     "head": "Pelan-pelan, *kebiasaan terbentuk.*",
+     "e": "happy",
+     "pose": "cheer",
+     "p": []
+    },
+    {
+     "say": "Langkah kecil: besok bangun lima belas menit lebih awal.",
+     "head": "Mulai dari *yang kecil,* Warga.",
+     "e": "happy",
+     "pose": "cheer",
+     "p": [],
+     "card": {
+      "l1": "Bangun 15 menit",
+      "l2": "lebih awal besok.",
+      "rows": [
+       [
+        "Pasang alarm",
+        1
+       ],
+       [
+        "Taruh di seberang",
+        1
+       ],
+       [
+        "Bangun",
+        1
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

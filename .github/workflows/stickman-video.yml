@@ -1,0 +1,125 @@
+name: stickman-video
+
+# Video stickman harian: render 09.00 WIB -> TikTok mulaimandiri tayang 20.00 WIB, YouTube uda2biaso tayang 23.00 WIB.
+# Terpisah dari daily.yml (08.00 / slot 19.00) dan cat-quote-video.yml (08.30 / slot 17.00). Tidak mengubah keduanya.
+on:
+  schedule:
+    - cron: "0 2 * * *"        # 02:00 UTC = 09:00 WIB
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "dry-run = render, tidak memposting | normal = jadwalkan sungguhan | voice-test | clone-test (uji suara klon gratis) | list-channels"
+        type: choice
+        default: dry-run
+        options: [dry-run, normal, voice-test, clone-test, list-channels]
+      content_id:
+        description: "Opsional: paksa konten tertentu, contoh c05"
+        required: false
+
+concurrency:
+  group: daily-post            # sama dengan alur lama agar tidak berebut git push
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  stickman:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}          # TikTok mulaimandiri (dipakai bersama alur lama)
+      BUFFER_YT_CHANNEL_ID: ${{ secrets.BUFFER_YT_CHANNEL_ID }}    # YouTube uda2biaso (secret BARU)
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      STICK_START_DATE: ${{ vars.STICK_START_DATE || '2026-11-08' }}
+      STICK_TT_TIME: ${{ vars.STICK_TT_TIME || '20:00' }}
+      STICK_YT_TIME: ${{ vars.STICK_YT_TIME || '23:00' }}
+      ELEVEN_API_KEY: ${{ secrets.ELEVEN_API_KEY }}                # opsional: suara klon (ElevenLabs)
+      ELEVEN_VOICE_ID: ${{ vars.ELEVEN_VOICE_ID || secrets.ELEVEN_VOICE_ID }}
+      STICK_CLONE: ${{ vars.STICK_CLONE || '' }}                    # openvoice = suara klon gratis (percobaan)
+      STICK_VOICE_SOURCE: ${{ vars.STICK_VOICE_SOURCE || 'auto' }}   # auto | klon | rekaman | tts
+      STICK_VOICE: ${{ vars.STICK_VOICE || 'id-ID-ArdiNeural' }}
+      STICK_RATE: ${{ vars.STICK_RATE || '+0%' }}
+      STICK_YT_CATEGORY: ${{ vars.STICK_YT_CATEGORY || '27' }}
+      STICK_AI_LABEL: ${{ vars.STICK_AI_LABEL || '1' }}
+      STICK_REQUIRE_VOICE: ${{ vars.STICK_REQUIRE_VOICE || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Pasang dependensi
+        run: |
+          sudo apt-get update -qq || true
+          sudo apt-get install -y -qq ffmpeg espeak-ng || true
+          pip install --quiet pillow numpy edge-tts gTTS
+
+      - name: Pasang OpenVoice (suara klon gratis, hanya bila dipakai)
+        if: github.event.inputs.mode == 'clone-test' || vars.STICK_CLONE == 'openvoice'
+        continue-on-error: true
+        run: |
+          pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --quiet librosa soundfile huggingface_hub inflect unidecode eng_to_ipa nltk pypinyin cn2an jieba pydub numpy
+          pip install --quiet --no-deps "git+https://github.com/myshell-ai/OpenVoice.git"
+          python -c "from openvoice.api import ToneColorConverter; print('OpenVoice terpasang')"
+
+      - name: Uji suara klon (dasar vs klon, tidak memposting)
+        if: github.event.inputs.mode == 'clone-test'
+        run: python stickman/tts.py --clone-test
+
+      - name: Simpan contoh suara klon (untuk didengarkan)
+        if: github.event.inputs.mode == 'clone-test'
+        uses: actions/upload-artifact@v4
+        with:
+          name: clone-test
+          path: |
+            out/clone_test/?_dasar.wav
+            out/clone_test/?_klon.wav
+          retention-days: 7
+
+      - name: Uji suara
+        if: github.event.inputs.mode == 'voice-test'
+        run: python stickman/tts.py
+
+      - name: Daftar channel Buffer (cari ID YouTube)
+        if: github.event.inputs.mode == 'list-channels'
+        run: python stickman/post_stickman.py --list-channels
+
+      - name: Render video
+        if: github.event.inputs.mode != 'voice-test' && github.event.inputs.mode != 'list-channels' && github.event.inputs.mode != 'clone-test'
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.content_id }}" ]; then ARGS="--id ${{ github.event.inputs.content_id }}"; fi
+          python stickman/build_video.py $ARGS --out out/video.mp4
+
+      - name: Simpan video sebagai artifact (untuk dicek)
+        if: github.event.inputs.mode != 'voice-test' && github.event.inputs.mode != 'list-channels' && github.event.inputs.mode != 'clone-test'
+        uses: actions/upload-artifact@v4
+        with:
+          name: stickman-video
+          path: out/video.mp4
+          retention-days: 7
+
+      - name: Dry-run (tidak memposting)
+        if: github.event.inputs.mode == 'dry-run'
+        run: python stickman/post_stickman.py --dry-run --meta out/meta.json
+
+      - name: Jadwalkan ke Buffer (TikTok 20.00 + YouTube 23.00 WIB)
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'normal'
+        run: python stickman/post_stickman.py --video out/video.mp4 --meta out/meta.json
+
+      - name: Simpan log penjaga ganda
+        if: github.event_name == 'schedule' || github.event.inputs.mode == 'normal'
+        run: |
+          git config user.name "stickman-bot"
+          git config user.email "stickman-bot@users.noreply.github.com"
+          git add stickman/posted_log.txt || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "stickman: log posting"
+          for i in 1 2 3; do
+            git pull --rebase origin "${{ github.ref_name }}" && git push && break
+            sleep 6
+          done

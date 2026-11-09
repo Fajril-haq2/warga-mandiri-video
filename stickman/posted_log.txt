@@ -1,2 +1,4 @@
 2026-11-08	tiktok	6aefcd80d6bbae6fa1be994d	c01
 2026-11-08	youtube	6aefcd81229bf05daf83c7b3	c01
+2026-11-09	tiktok	6af18e6b05fdd541fbcd8b2d	c02
+2026-11-09	youtube	6af18e6cd3d80b627656a0b6	c02
